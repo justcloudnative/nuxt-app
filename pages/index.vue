@@ -2,6 +2,6 @@
 
 <template>
   <div>
-    <h1>Hello World</h1>
+    <h1>This is a for learning nuxt </h1>
   </div>
 </template>

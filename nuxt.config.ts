@@ -13,5 +13,15 @@ export default defineNuxtConfig({
     vuetifyOptions: {
       /* vuetify options */
     }
-  }
+  },
+  security: {
+    headers: {
+      contentSecurityPolicy: {
+        // 'default-src': ["'self'"],
+        // 'img-src': ["'self'"],
+        // 'script-src': ["'self'"],
+        // 'style-src': ["'self'"],
+      },
+    },
+  },
 })
